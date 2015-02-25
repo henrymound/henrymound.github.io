@@ -62,7 +62,7 @@ hr.star-light {
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #fff; 
     background-color: #18bc9c;
 }
 
@@ -203,8 +203,8 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 600px;
-    min-width: 600px;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
