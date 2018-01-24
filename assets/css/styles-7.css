@@ -8,14 +8,30 @@
 */
 /* styles-6.css */
 /* ======= Base ======= */
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+svg {
+	z-index:-1;
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
 body {
+  background: -webkit-radial-gradient(center, ellipse, #025069 0%, #308AA0 100%);
+  background: radial-gradient(ellipse at center, #025069 0%, #308AA0 100%);
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
-  background: #025069;
   font-size: 14px;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;height: 100%;
+    overflow: auto;
 }
 h1,
 h2,
@@ -43,7 +59,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #4B6A78;
+  background: #00809F;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -55,7 +71,7 @@ p {
   background: #04A7DB;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 270px;
   height: 100%;
   min-height: 800px;
   color: #fff;
